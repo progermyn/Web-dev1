@@ -8,6 +8,6 @@ body {
 }
 .photo {
     margin:15px;
-    border: 15px double green;
+    border-radius: 10%;
     width: 200px;
 }
