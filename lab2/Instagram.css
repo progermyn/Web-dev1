@@ -239,15 +239,14 @@ div{
     -webkit-appearance: none;
     text-align: left;
     background: rgb(250, 250, 250);
-    border: 0;
+    border: none;
     flex: 1 0 auto;
     margin: 0;
     outline: none;
     overflow: hidden;
-    padding: 9px 0 7px 8px;
     text-overflow: ellipsis;
-    padding: 14px 0 2px 8px!important;
-
+    padding-left: 10px;
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
 }
 .key{
     padding-right: 8px;

@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    width: 1500px;
+}
 .ovf{
     overflow-x: visible;
 }
@@ -223,21 +226,51 @@
 .img{
     display: flex;
     flex-direction: row;
-    background-color: rgba(231, 230, 230, 0.896);
     align-items: center;
     margin: 10px 0 30px 0;
 }
 .left{
-    display: inline-block;
-   flex-direction: column;
-   align-items: center;
+    position: absolute;
+    display: block;
+    float: left;
+    width: 400px;
+    margin-left: 200px;
+    z-index: 1;
+    color: rgb(230, 230, 230);
 }
-
+.mdn{
+    font-size: 40px;
+}
+.buttons{
+    margin: 5px;
+}
+#but{
+    border: none;
+    background-color: #0067b8;
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+    padding: 10px;
+}
+.pit{
+    width: 302px;
+    height: 170px;
+}
+.cnt{
+    width: 300px;
+    font-style: normal;
+}
 .bot{
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 100px;
+}
+#str{
+    font-size: 24px;
+    font-weight: 400px;
 }
 .cnd{
     margin: 10px;
+}
+a{
+    text-decoration: none;
 }
