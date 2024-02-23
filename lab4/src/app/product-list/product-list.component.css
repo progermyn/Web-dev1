@@ -12,7 +12,7 @@
     border:1px solid whitesmoke;
     border-radius: 3px;
     width: 500px;
-    height: 500px;
+    height: 600px;
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -27,8 +27,8 @@
     padding:15px;
 }
 .container .images img{
-    width:150px;
-    height:200px;
+    width:240px;
+    height:240px;
     background-color: white;
     border:0.4px solid whitesmoke;
     position: relative;
